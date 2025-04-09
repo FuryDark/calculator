@@ -5,7 +5,7 @@ A web-based calculator built using HTML, CSS, and JavaScript. This project featu
 ## Live Demo
 
 You can view the live version of this project here:  
-[https://your-username.github.io/smart-calculator/](https://your-username.github.io/smart-calculator/)
+[https://your-username.github.io/smart-calculator/](https://FuryDark.github.io/calculator/)
 
 ---
 
