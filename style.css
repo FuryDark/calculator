@@ -1,0 +1,124 @@
+body {
+  background: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.calculator {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  width: 300px;
+}
+
+/* Dual display styling */
+.display-area {
+  width: 100%;
+  margin-bottom: 15px;
+  background-color: #fafafa;
+  border-radius: 8px;
+  padding: 10px 15px;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+#expression-display {
+  font-size: 16px;
+  color: #888;
+  text-align: right;
+  height: 20px;
+  overflow-x: auto;
+}
+
+#result-display {
+  width: 100%;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: right;
+  border: none;
+  background: transparent;
+  margin-top: 5px;
+  outline: none;
+}
+
+/* Memory buttons */
+.memory-buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.memory-buttons button {
+  padding: 10px;
+  font-size: 14px;
+  background: #90caf9;
+  color: #000;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.memory-buttons button:hover {
+  background: #64b5f6;
+}
+
+/* Regular buttons */
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  padding: 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  background: #e0e0e0;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #d0d0d0;
+}
+
+.operator {
+  background: #ffb74d;
+}
+
+.operator:hover {
+  background: #ffa726;
+}
+
+#equals {
+  background: #4caf50;
+  color: white;
+}
+
+#equals:hover {
+  background: #43a047;
+}
+
+#clear {
+  background: #f44336;
+  color: white;
+}
+
+#clear:hover {
+  background: #e53935;
+}
+
+#backspace {
+  background: #607d8b;
+  color: white;
+}
+
+#backspace:hover {
+  background: #455a64;
+}
