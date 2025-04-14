@@ -32,6 +32,3 @@ You can view the live version of this project here:
 - JavaScript (Vanilla)
 
 ---
-
-## Project Structure
-
